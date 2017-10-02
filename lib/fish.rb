@@ -1,9 +1,9 @@
 class Fish
   # code goes here
-attr_accessor :name, :mood
+  attr_accessor :name, :mood
 
-  def initialize(fish)
+  def initialize(name)
     @name = name
-
-  end
+    @mood = "nervous"
+end
 end
