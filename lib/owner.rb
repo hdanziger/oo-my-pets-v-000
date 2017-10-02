@@ -8,6 +8,13 @@ class Owner
   end
 
   def buy_cat(name)
+    pets << cat.new
+  end
+
+  def buy_dog(name)
+  end
+
+  def buy_fish(name)
   end
 
 end
