@@ -31,16 +31,12 @@ class Owner
   end
 
   def buy_fish(name)
-    pets[:fish] << Fish.new(name)
+    pets[:fishes] << Fish.new(name)
   end
 
   def say_species
     "I am a #{species}."
   end
 
-  def buy_fish(name)
-    pets[:fish] <<Fish.new(name)
-    Fish.mood = "happy"
-  end
 
 end
