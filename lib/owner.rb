@@ -12,8 +12,12 @@ class Owner
     owners.size
   end
 
+  def self.all
+    owners
+  end
+
   def initialize(animals)
-    @animals = animals 
+    @animals = animals
     @pets= {:fishes => [], :dogs => [], :cats => []}
     owners << self
   end
