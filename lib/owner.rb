@@ -5,7 +5,11 @@ class Owner
   def initialize(owner)
     @name = name
     @pets= {:fishes => [], :dogs => [], :cats => []}
+    @owner = []
   end
+
+
+
 
   def buy_cat(name)
     pets.cats << cat.new
