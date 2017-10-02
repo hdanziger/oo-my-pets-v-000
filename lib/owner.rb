@@ -38,5 +38,8 @@ class Owner
     "I am a #{species}."
   end
 
+  def walk_dogs(name)
+    Dog.mood = "happy"
+
 
 end
